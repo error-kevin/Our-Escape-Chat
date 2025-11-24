@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, #1e1b4b 0%, #030712 60%);
+  color: #e2e8f0;
+}
+
+main {
+  flex: 1;
+  padding: 2.5rem 1.5rem 3rem;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 1.5rem 1rem 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  main {
+    padding: 1.25rem 0.85rem 1.75rem;
+  }
+}
